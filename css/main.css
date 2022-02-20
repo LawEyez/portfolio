@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Massedi';
+  src: url("https://res.cloudinary.com/dvaav1gff/raw/upload/v1645398613/Massedi_uev0pu.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Azonix';
+  src: url("https://res.cloudinary.com/dvaav1gff/raw/upload/v1645398613/Azonix_tcmfol.woff2") format("woff2");
+}
+
 *,
 *::before,
 *::after {
