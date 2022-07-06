@@ -289,6 +289,7 @@ section {
           align-items: center;
   width: 100%;
   margin: 1.5rem 0;
+  color: #000;
 }
 
 .long__card__title::after {
