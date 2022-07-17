@@ -324,6 +324,7 @@ section {
         -ms-flex-direction: row;
             flex-direction: row;
     padding: 0 4rem;
+    width: 70%;
   }
 }
 
