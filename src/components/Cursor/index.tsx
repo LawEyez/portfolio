@@ -35,8 +35,8 @@ const Cursor = () => {
   return (
     <div
       ref={cursorRef}
-      className='w-40 h-40 rounded-full mix-blend-difference bg-white absolute
-      z-40'
+      className='hidden md:block w-40 h-40 rounded-full mix-blend-difference
+      bg-white absolute z-40'
     />
   )
 }
