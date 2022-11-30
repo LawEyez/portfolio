@@ -1,0 +1,17 @@
+.container {
+  @apply w-full px-4 md:px-8 xl:mx-auto xl:px-0 max-w-6xl;
+}
+
+/* ******** SCROLLBAR ****** */
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: #000;
+}
