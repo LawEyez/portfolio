@@ -1,11 +1,11 @@
 import { Plus_Jakarta_Sans } from '@next/font/google'
 
 import Navbar from '@components/Navbar'
+import Avatar from '@components/Avatar'
+import Cursor from '@components/Cursor'
 
 import '@styles/globals.css'
 import '@styles/custom.scss'
-import Avatar from '@components/Avatar'
-import Cursor from '@components/Cursor'
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],

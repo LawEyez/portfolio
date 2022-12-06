@@ -7,7 +7,8 @@ const Navbar = () => {
       <nav className="flex items-center justify-between w-full container">
         <Menu />
 
-        <div className="flex items-center gap-5 bg-black/80 backdrop-blur">
+        <div className="flex items-center gap-5 bg-black backdrop-blur py-1 px-2
+        rounded-3xl">
           <Navlink name="home" path="/" />
           <Navlink name="projects" path="/projects" />
           <Navlink name="contact" path="/contact" />
