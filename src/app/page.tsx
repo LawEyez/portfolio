@@ -3,7 +3,24 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <section className="relative h-screen w-full">
-      <div className="flex items-center h-full container">
+        <div className="absolute w-64 -rotate-90 translate-y-96">
+          <div className="uppercase text-neutral-900 text-9xl font-black
+          tracking-[-10px]">
+            developer
+          </div>
+          
+          <div className="uppercase text-neutral-900 text-8xl font-black
+          tracking-[-10px]">
+            designer
+          </div>
+
+          <div className="uppercase text-neutral-900 text-7xl font-black
+          tracking-[-10px]">
+            artist
+          </div>
+        </div>
+      <div className="relative flex items-center h-full container">
+
         <div className='w-full space-y-4 break-words'>
           <p className="text-neutral-300">Hi there, I&apos;m Allen, a...</p>
           <div className="capitalize font-bold text-6xl flex flex-col lg:flex-row
