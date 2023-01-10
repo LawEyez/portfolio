@@ -20,12 +20,12 @@ const Project = ({
           <Link
             className="px-8 py-4 capitalize border border-white/20 rounded-[9999px]
             flex items-center justify-center text-sm font-medium w-max gap-1.5
-            hover:border-white transition"
+            hover:border-white transition group"
             href={url}
             target='_blank'
           >
             open project
-            <span className="text-lg">
+            <span className="text-lg group-hover:text-blue-600 transition">
               <RiArrowRightUpLine />
             </span>
           </Link>
