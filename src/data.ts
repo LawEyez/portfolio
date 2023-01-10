@@ -1,5 +1,26 @@
 export const projects = [
   {
+    id: 'az',
+    name: 'afordia zero',
+    description: 'A great landing page for a great company.',
+    tools: [
+      'Next JS',
+      'React JS',
+      'TypeScript',
+      'MongoDB',
+      'Vercel',
+      'TailwindCSS',
+    ],
+    tags: [
+      'web',
+      'portfolio',
+      'branding',
+      'company'
+    ],
+    url: 'https://afordiazero.com'
+  },
+
+  {
     id: 'ryze',
     name: 'ryze net',
     description: 'One of my favorites. Ryze is a platform that enables users to share their thoughts and ideas with each other.',

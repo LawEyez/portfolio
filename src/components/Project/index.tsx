@@ -11,7 +11,7 @@ const Project = ({
   url
 }: ProjectProps) => {
   return (
-    <div className='flex flex-col md:flex-row gap-10 bg-black/05 backdrop-blur-sm py-10'>
+    <div className='flex flex-col md:flex-row gap-10 bg-black/30 py-10'>
       {/* Name and URL */}
       <div className="h-max space-y-8 flex-1">
         <h2 className="capitalize text-6xl font-bold tracking-tighter">{name}</h2>
@@ -19,12 +19,13 @@ const Project = ({
         <div>
           <Link
             className="px-8 py-4 capitalize border border-white/20 rounded-[9999px]
-            flex items-center justify-center text-sm font-medium w-max gap-1.5"
+            flex items-center justify-center text-sm font-medium w-max gap-1.5
+            hover:border-white transition group"
             href={url}
             target='_blank'
           >
             open project
-            <span className="text-lg">
+            <span className="text-lg group-hover:text-blue-600 transition">
               <RiArrowRightUpLine />
             </span>
           </Link>
@@ -41,7 +42,13 @@ const Project = ({
 
           <div className="flex flex-wrap gap-2">
             {tools.map((tool: string) => (
-              <div key={tool} className="border border-white/20 px-4 py-2 rounded-full text-xs">{tool}</div>
+              <div
+                key={tool}
+                className="border-2 border-white/20 px-4 py-2 rounded-full text-xs cursor-default
+                hover:border-white hover:text-white transition"
+              >
+                {tool}
+              </div>
             ))}
           </div>
         </div>
