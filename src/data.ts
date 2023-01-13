@@ -42,7 +42,7 @@ export const projects = [
       'blogging',
       'writing'
     ],
-    url: 'https://ryze-sable.vercel.app'
+    url: 'https://theryze.net'
   },
 
   {
