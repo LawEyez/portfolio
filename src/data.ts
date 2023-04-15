@@ -1,5 +1,27 @@
 export const projects = [
   {
+    id: 'fyntrax',
+    name: 'fyntrax',
+    description: 'A handy app I\'m making to help me manage finances.',
+    tools: [
+      'Next JS',
+      'React JS',
+      'TypeScript',
+      'MongoDB',
+      'Vercel',
+      'TailwindCSS',
+      'Cyclic',
+    ],
+    tags: [
+      'web',
+      'finance',
+      'management',
+      'fintech'
+    ],
+    url: 'https://app.fyntrax.com'
+  },
+  
+  {
     id: 'az',
     name: 'afordia zero',
     description: 'A great landing page for a great company.',
