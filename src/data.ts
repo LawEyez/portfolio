@@ -18,7 +18,7 @@ export const projects = [
       'management',
       'fintech'
     ],
-    url: 'https://app.fyntrax.com'
+    url: 'https://fyntrax.com'
   },
   
   {
