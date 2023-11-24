@@ -1,5 +1,24 @@
 export const projects = [
   {
+    id: 'cyclic',
+    name: 'cyclic',
+    description: 'Deploy your app in seconds.',
+    tools: [
+      'Vue JS',
+      'Nuxt JS',
+      'TailwindCSS',
+      'Cyclic',
+    ],
+    tags: [
+      'web',
+      'development',
+      'devops',
+      'serverless'
+    ],
+    url: 'https://cyclic.sh'
+  },
+
+  {
     id: 'fyntrax',
     name: 'fyntrax',
     description: 'A handy app I\'m making to help me manage finances.',
