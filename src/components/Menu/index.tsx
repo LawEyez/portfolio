@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Menu = () => {
   return (
     <>
@@ -7,7 +9,7 @@ const Menu = () => {
           <div className="h-0.5 w-6 bg-white" />
         </div>
 
-        <span className="text-sm font-medium tracking-tighter">allen.</span>
+        <Link href='/' className="text-sm font-medium tracking-tighter">allen.</Link>
       </div>
     </>
   )
