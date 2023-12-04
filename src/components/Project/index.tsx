@@ -11,7 +11,7 @@ const Project = ({
   url
 }: ProjectProps) => {
   return (
-    <div className='flex flex-col md:flex-row gap-10 bg-black/30 py-10'>
+    <div className='flex flex-col md:flex-row gap-10 bg-black/30'>
       {/* Name and URL */}
       <div className="h-max space-y-8 flex-1">
         <h2 className="capitalize text-6xl font-bold tracking-tighter">{name}</h2>
@@ -25,7 +25,7 @@ const Project = ({
             target='_blank'
           >
             open project
-            <span className="text-lg group-hover:text-blue-600 transition">
+            <span className="text-lg text-blue-600 group-hover:text-white transition">
               <RiArrowRightUpLine />
             </span>
           </Link>
@@ -35,7 +35,7 @@ const Project = ({
 
       {/* Description, Tags & Tools */}
       <div className="space-y-6 flex-1">
-        <p className="text-sm leading-6">{description}</p>
+        <p className="text-4xl text-neutral-300 font-light">{description}</p>
 
         <div className="space-y-2">
           <h3 className="font-bold capitalize">tools</h3>
