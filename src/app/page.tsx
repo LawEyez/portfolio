@@ -53,8 +53,10 @@ export default function Home() {
           Projects
         </h1>
         
-        <div className="mt-10">
+        <div className="mt-10 space-y-10">
           {projects.map((project: any) => (
+            <>
+            <hr className='border-neutral-800' />
             <Project
               key={project.id}
               name={project.name}
@@ -63,6 +65,7 @@ export default function Home() {
               tags={project.tags}
               url={project.url}
             />
+            </>
           ))}
         </div>
       </div>
