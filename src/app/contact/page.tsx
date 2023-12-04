@@ -1,8 +1,11 @@
+import RotatedText from '@components/RotatedText'
 import { RiMailUnreadFill, RiPhoneFill } from 'react-icons/ri'
 
 export default function Contact() {
   return (
     <section className="relative h-screen w-full">
+      <RotatedText />
+      
       <div className="flex items-center h-full container">
         <div className='w-full space-y-8 break-words'>
           <p className="text-white font-bold w-full md:w-1/2 text-6xl tracking-tighter">
