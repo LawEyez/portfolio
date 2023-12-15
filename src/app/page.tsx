@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import Link from 'next/link';
 
 import Project from "@components/Project";
+import RotatedText from '@components/RotatedText';
 
 import { projects } from "data";
-import RotatedText from '@components/RotatedText';
 
 export default function Home() {
   return (
@@ -15,11 +15,18 @@ export default function Home() {
       <div className="relative flex items-center h-screen container">
         <div className='w-full space-y-4 break-words'>
           <p className="text-neutral-300">Hi there, I&apos;m Allen, a...</p>
+
           <div className="capitalize font-bold text-7xl flex flex-col lg:flex-row
           tracking-tighter">
             <span className="">developer.</span>
             <span className="">designer.</span>
             <span className="">artist</span>
+          </div>
+
+          <div className="flex items-center gap-5">
+            <p className="text-neutral-300 text-sm">(+254) 711 383 990</p>
+            <div className="w-px h-4 border border-neutral-800"></div>
+            <Link href='mailto:ojuka.allen@gmail.com' className="text-neutral-300 text-sm">ojuka.allen@gmail.com</Link>
           </div>
         </div>
       </div>
