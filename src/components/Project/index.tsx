@@ -35,7 +35,7 @@ const Project = ({
 
       {/* Description, Tags & Tools */}
       <div className="space-y-6 flex-1">
-        <p className="text-4xl text-neutral-300 font-light">{description}</p>
+        <p className="text-2xl text-neutral-300 font-light">{description}</p>
 
         <div className="space-y-2">
           <h3 className="font-bold capitalize">tools</h3>
