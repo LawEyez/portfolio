@@ -1,4 +1,4 @@
-import { Plus_Jakarta_Sans } from '@next/font/google'
+import { Plus_Jakarta_Sans, Space_Grotesk } from '@next/font/google'
 
 import Navbar from '@components/Navbar'
 import Avatar from '@components/Avatar'
@@ -9,7 +9,12 @@ import '@styles/custom.scss'
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
-  variable: '--jakarta'
+  variable: '--font-sans'
+})
+
+const grotesk = Space_Grotesk({
+  subsets: ['latin'],
+  variable: '--font-mono'
 })
 
 export default function RootLayout({
@@ -24,7 +29,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className={`${jakarta.variable} font-sans overflow-x-hidden scrollbar`}>
+      <body className={`${jakarta.variable} ${grotesk.variable} font-sans overflow-x-hidden scrollbar`}>
         <Cursor />
         <Avatar />
         <Navbar />
