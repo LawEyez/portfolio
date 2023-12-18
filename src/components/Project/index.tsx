@@ -11,31 +11,32 @@ const Project = ({
   url
 }: ProjectProps) => {
   return (
-    <div className='flex flex-col md:flex-row gap-10 bg-black/30'>
+    <div className='flex flex-col md:flex-row gap-10 bg-neutral-900/30 backdrop-blur-sm border border-neutral-800
+    p-4 sm:p-6 rounded-xl'>
       {/* Name and URL */}
-      <div className="h-max space-y-8 flex-1">
-        <h2 className="capitalize text-6xl font-bold tracking-tighter">{name}</h2>
-
-        <div>
-          <Link
-            className="px-8 py-4 capitalize border border-white/20 rounded-[9999px]
-            flex items-center justify-center text-sm font-medium w-max gap-1.5
-            hover:border-white transition group"
-            href={url}
-            target='_blank'
-          >
-            open project
-            <span className="text-lg text-blue-600 group-hover:text-white transition">
-              <RiArrowRightUpLine />
-            </span>
-          </Link>
-
+      <div className="flex-1 flex flex-col gap-5 sm:justify-between">
+        <div className="space-y-5">
+          <h2 className="capitalize text-3xl font-bold">{name}</h2>
+          <p className="text-neutral-300 font-light font-mono">{description}</p>
         </div>
+
+        <Link
+          className="px-8 py-4 capitalize border border-white/20 rounded-[9999px]
+          flex items-center justify-center text-sm font-medium w-max gap-1.5
+          hover:border-white transition group"
+          href={url}
+          target='_blank'
+        >
+          open project
+          <span className="text-lg text-blue-600 group-hover:text-white transition">
+            <RiArrowRightUpLine />
+          </span>
+        </Link>
       </div>
 
       {/* Description, Tags & Tools */}
       <div className="space-y-6 flex-1">
-        <p className="text-2xl text-neutral-300 font-light">{description}</p>
+        
 
         <div className="space-y-2">
           <h3 className="font-bold capitalize">tools</h3>
