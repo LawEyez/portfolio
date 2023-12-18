@@ -33,7 +33,7 @@ export default function Home() {
 
       {/* *********** ABOUT *********** */}
       <div className='w-full space-y-4 break-words container pb-40'>
-        <p className="text-neutral-400 w-full text-5xl">
+        <p className="text-neutral-400 w-full text-5xl font-mono">
           By day, a <span className="text-white">software engineer</span>, a <span className="text-white">UI/UX designer</span> and an aspiring <span className="text-white">entrepreneur</span>. By night, a <span className="text-white">writer</span>, <span className="text-white">artist</span>, and <span className="text-white">Batman&apos;s sidekick</span>.
         </p>
 
@@ -42,14 +42,12 @@ export default function Home() {
 
       {/* *********** PROJECTS *********** */}
       <div className="h-full container pt-20">
-        <h1 className="text-white w-full md:w-1/2 text-2xl font-black tracking-tighter">
+        <h1 className="text-neutral-300 w-full md:w-1/2 uppercase font-semibold tracking-[10px] font-mono">
           Projects
         </h1>
         
-        <div className="mt-10 space-y-10">
+        <div className="mt-10 space-y-3">
           {projects.map((project: any) => (
-            <>
-            <hr className='border-neutral-800' />
             <Project
               key={project.id}
               name={project.name}
@@ -58,7 +56,6 @@ export default function Home() {
               tags={project.tags}
               url={project.url}
             />
-            </>
           ))}
         </div>
       </div>
