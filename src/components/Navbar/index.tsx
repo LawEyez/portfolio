@@ -1,7 +1,7 @@
 import Menu from "@components/Menu"
 import Navlink from "@components/Navlink"
 import Link from "next/link"
-import { RiGithubFill, RiLinkedinFill, RiMailFill, RiTwitterFill } from "react-icons/ri"
+import { RiDribbbleFill, RiGithubFill, RiLinkedinFill, RiMailFill, RiTwitterFill } from "react-icons/ri"
 
 const Navbar = () => {
   return (
@@ -50,11 +50,19 @@ const Navbar = () => {
             
             <Link
               className="text-neutral-300 hover:text-white"
+              href='https://dribbble.com/Allen_OJU'
+              target="_blank"
+            >
+              <RiDribbbleFill />
+            </Link>
+            
+            {/* <Link
+              className="text-neutral-300 hover:text-white"
               href='https://twitter.com/ojuka_allen'
               target="_blank"
             >
               <RiTwitterFill />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>
