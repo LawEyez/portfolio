@@ -1,5 +1,46 @@
 export const projects = [
   {
+    id: 'graphyte',
+    name: 'graphyte',
+    description: 'Data visualization made simple.',
+    tools: [
+      'Next JS',
+      'React JS',
+      'TypeScript',
+      'MongoDB',
+      'Vercel',
+      'TailwindCSS',
+    ],
+    tags: [
+      'web',
+      'data',
+      'visualization',
+      'analytics'
+    ],
+    url: 'https://graphyte.afordiazero.com'
+  },
+
+  {
+    id: 'sparkles',
+    name: 'sparkles',
+    description: 'Your home of beauty.',
+    tools: [
+      'Next JS',
+      'React JS',
+      'TypeScript',
+      'MongoDB',
+      'Vercel',
+      'TailwindCSS',
+    ],
+    tags: [
+      'web',
+      'ecommerce',
+      'beauty',
+    ],
+    url: 'https://sparkles.africa'
+  },
+
+  {
     id: 'cyclic',
     name: 'cyclic',
     description: 'Deploy your app in seconds.',
