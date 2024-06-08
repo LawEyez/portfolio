@@ -1,5 +1,25 @@
 export const projects = [
   {
+    id: 'division-y',
+    name: 'division-Y',
+    description: 'division-Y is a collective of enthusiasts interested in trying new and weird things.',
+    tools: [
+      'Next JS',
+      'React JS',
+      'TypeScript',
+      'Figma',
+      'Vercel',
+      'TailwindCSS',
+    ],
+    tags: [
+      'web',
+      'data',
+      'ui',
+      'software'
+    ],
+    url: 'https://division-y.com'
+  },
+  {
     id: 'graphyte',
     name: 'graphyte',
     description: 'Data visualization made simple.',
