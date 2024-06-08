@@ -82,7 +82,7 @@ export const projects = [
   {
     id: 'fyntrax',
     name: 'fyntrax',
-    description: 'A handy app I\'m making to help me manage finances.',
+    description: 'Your finances simplified.',
     tools: [
       'Next JS',
       'React JS',
@@ -104,7 +104,7 @@ export const projects = [
   {
     id: 'az',
     name: 'afordia zero',
-    description: 'A great landing page for a great company.',
+    description: 'Building products that matter.',
     tools: [
       'Next JS',
       'React JS',
@@ -125,7 +125,7 @@ export const projects = [
   {
     id: 'ryze',
     name: 'ryze net',
-    description: 'One of my favorites. Ryze is a platform that enables users to share their thoughts and ideas with each other.',
+    description: 'Ryze is a platform that enables users to share their thoughts and ideas with each other.',
     tools: [
       'Next JS',
       'React JS',
@@ -198,7 +198,7 @@ export const projects = [
   {
     id: 'doors',
     name: 'doors 11',
-    description: "Windows. Windows. Windows. Everything is about Windows. But not this time. Presenting Doors 11, because doors are better than windows. (PS: the password is password)",
+    description: "A recreation of Windows 11 UI on web.",
     tools: [
       'React JS',
       'Next JS',
