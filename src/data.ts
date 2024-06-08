@@ -198,7 +198,7 @@ export const projects = [
   {
     id: 'doors',
     name: 'doors 11',
-    description: "A recreation of Windows 11 UI on web.",
+    description: "A recreation of Windows 11 UI on web. (The password is your first name in lowercase)",
     tools: [
       'React JS',
       'Next JS',
